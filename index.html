@@ -13,10 +13,10 @@
     <!-- Site header start -->
     <header class="site-header">
       <div class="container">
-        <div class="site-header-inner">
-          <a class="logo-link" href="./index.html">
+        <div class="site-header__inner">
+          <a class="logo" href="./index.html">
             <img
-              class="logo-img"
+              class="logo__img"
               src="./images/logo-bookmark.svg"
               alt="logo-img"
               width="150"
@@ -24,15 +24,15 @@
             />
           </a>
           <nav class="sitenav">
-            <ul class="sitenav-list">
-              <li class="sitenav-item">
-                <a class="sitenav-item-link" href="#">FEATURES</a>
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">FEATURES</a>
               </li>
-              <li class="sitenav-item">
-                <a class="sitenav-item-link" href="#">PRICING</a>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">PRICING</a>
               </li>
-              <li class="sitenav-item">
-                <a class="sitenav-item-link" href="#">CONTACT</a>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">CONTACT</a>
               </li>
             </ul>
             <a class="login-link" href="#">LOGIN</a>
@@ -48,17 +48,17 @@
       <!-- Hero section start -->
       <section class="hero">
         <div class="container">
-          <div class="hero-inner">
-            <div class="hero-info">
-              <h1 class="hero-title">A Simple Bookmark Manager</h1>
-              <p class="hero-text">
+          <div class="hero__inner">
+            <div class="hero__info info-hero">
+              <h1 class="info-hero__title">A Simple Bookmark Manager</h1>
+              <p class="info-hero__text">
                 A clean and simple interface to organize your favourite
                 websites. Open a new browser tab and see your sites load
                 instantly. Try it for free.
               </p>
-              <div class="hero-btn-wrapper">
+              <div class="hero__btn-wrapper">
                 <a class="primary-btn" href="#">Get it on Chrome</a>
-                <a class="primary-btn hero-btn" href="#">Get it on Firefox</a>
+                <a class="primary-btn hero__btn" href="#">Get it on Firefox</a>
               </div>
             </div>
           </div>
@@ -69,29 +69,31 @@
       <!-- Feature -->
       <section class="feature">
         <div class="container">
-          <div class="feature-inner">
-            <div class="section-info">
-              <h2 class="section-title">Features</h2>
-              <p class="section-text">
+          <div class="feature__inner">
+            <div class="feature__top section-info">
+              <h2 class="section-info__title">Features</h2>
+              <p class="section-info__text">
                 Our aim is to make it quick and easy for you to access your
                 favourite websites. Your bookmarks sync between your devices so
                 you can access them on the go.
               </p>
             </div>
-            <ul class="feature-list">
-              <li class="feature-item">
-                <a class="feature-link" href="#">Simple Bookmarking</a>
+            <ul class="feature__list">
+              <li class="feature__item">
+                <a class="feature__link feature__link--active" href="#"
+                  >Simple Bookmarking</a
+                >
               </li>
-              <li class="feature-item">
-                <a class="feature-link" href="#">Speedy Searching</a>
+              <li class="feature__item">
+                <a class="feature__link" href="#">Speedy Searching</a>
               </li>
-              <li class="feature-item">
-                <a class="feature-link" href="#">Easy Sharing</a>
+              <li class="feature__item">
+                <a class="feature__link" href="#">Easy Sharing</a>
               </li>
             </ul>
-            <div class="feature-info">
-              <h3 class="feature-info-title">Bookmark in one click</h3>
-              <p class="feature-info-text">
+            <div class="feature__info info-feature">
+              <h3 class="info-feature__title">Bookmark in one click</h3>
+              <p class="info-feature__text">
                 Organize your bookmarks however you like. Our simple
                 drag-and-drop interface gives you complete control over how you
                 manage your favourite sites.
@@ -106,54 +108,54 @@
       <!-- Download -->
       <section class="download">
         <div class="container">
-          <div class="download-inner">
-            <div class="section-info">
-              <h2 class="section-title">Download the extension</h2>
-              <p class="section-text">
+          <div class="download__inner">
+            <div class="download__top section-info">
+              <h2 class="section-info__title">Download the extension</h2>
+              <p class="section-info__text">
                 We’ve got more browsers in the pipeline. Please do let us know
                 if you’ve got a favourite you’d like us to prioritize.
               </p>
             </div>
-            <ul class="download-list">
-              <li class="download-item">
+            <ul class="download__list">
+              <li class="download__item item-download">
                 <img
-                  class="download-item-img"
+                  class="item-download__img"
                   src="./images/chrome.svg"
                   alt="download-item image"
                   width="102"
                   height="100"
                 />
-                <h3 class="download-item-title">Add to Chrome</h3>
-                <p class="download-item-text">Minimum version 62</p>
-                <a class="primary-btn download-item-btn" href="#"
+                <h3 class="item-download__title">Add to Chrome</h3>
+                <p class="item-download__text">Minimum version 62</p>
+                <a class="primary-btn item-download__btn" href="#"
                   >Add & Install Extension</a
                 >
               </li>
-              <li class="download-item">
+              <li class="download__item item-download">
                 <img
-                  class="download-item-img"
+                  class="item-download__img"
                   src="./images/firefox.svg"
                   alt="download-item image"
                   width="105"
                   height="100"
                 />
-                <h3 class="download-item-title">Add to Firefox</h3>
-                <p class="download-item-text">Minimum version 55</p>
-                <a class="primary-btn download-item-btn" href="#"
+                <h3 class="item-download__title">Add to Firefox</h3>
+                <p class="item-download__text">Minimum version 55</p>
+                <a class="primary-btn item-download__btn" href="#"
                   >Add & Install Extension</a
                 >
               </li>
-              <li class="download-item">
+              <li class="download__item item-download">
                 <img
-                  class="download-item-img"
+                  class="item-download__img"
                   src="./images/opera.svg"
                   alt="download-item image"
                   width="96"
                   height="100"
                 />
-                <h3 class="download-item-title">Add to Opera</h3>
-                <p class="download-item-text">Minimum version 46</p>
-                <a class="primary-btn download-item-btn" href="#"
+                <h3 class="item-download__title">Add to Opera</h3>
+                <p class="item-download__text">Minimum version 46</p>
+                <a class="primary-btn item-download__btn" href="#"
                   >Add & Install Extension</a
                 >
               </li>
@@ -166,35 +168,33 @@
       <!-- Question -->
       <section class="question">
         <div class="container">
-          <div class="question-inner">
-            <div class="section-info">
-              <h2 class="section-title">Frequently Asked Questions</h2>
-              <p class="section-text">
+          <div class="question__inner">
+            <div class="question__top section-info">
+              <h2 class="section-info__title">Frequently Asked Questions</h2>
+              <p class="section-info__text">
                 Here are some of our FAQs. If you have any other questions you’d
                 like answered please feel free to email us.
               </p>
             </div>
-            <div class="question-boottom">
-              <details class="question-item-wrapper">
-                <summary class="question-item">
+            <div class="question__bottom">
+              <details class="question__item-wrapper">
+                <summary class="question__item item-question">
                   What is Bookmark?
                   <svg
-                    class="question-item-arrow"
+                    class="item-question__arrow"
                     width="20"
                     height="13"
-                    viewBox="0 0 20 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      id="Path 3"
-                      d="M2 2L10 10L18 2"
+                      d="m2 2 8 8 8-8"
                       stroke="currentColor"
                       stroke-width="3"
                     />
                   </svg>
                 </summary>
-                <p class="question-item-text">
+                <p class="question__text">
                   Vivamus luctus eros aliquet convallis ultricies. Mauris augue
                   massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
                   luctus eros aliquet convallis ultricies. Mauris augue massa,
@@ -203,26 +203,24 @@
                   ultricies non ligula. Suspendisse imperdiet.
                 </p>
               </details>
-              <details class="question-item-wrapper">
-                <summary class="question-item">
+              <details class="question__item-wrapper">
+                <summary class="question__item item-question">
                   How can I request a new browser?
                   <svg
-                    class="question-item-arrow"
+                    class="item-question__arrow"
                     width="20"
                     height="13"
-                    viewBox="0 0 20 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      id="Path 3"
-                      d="M2 2L10 10L18 2"
+                      d="m2 2 8 8 8-8"
                       stroke="currentColor"
                       stroke-width="3"
                     />
                   </svg>
                 </summary>
-                <p class="question-item-text">
+                <p class="question__text">
                   Vivamus luctus eros aliquet convallis ultricies. Mauris augue
                   massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
                   luctus eros aliquet convallis ultricies. Mauris augue massa,
@@ -231,26 +229,24 @@
                   ultricies non ligula. Suspendisse imperdiet.
                 </p>
               </details>
-              <details class="question-item-wrapper">
-                <summary class="question-item">
+              <details class="question__item-wrapper">
+                <summary class="question__item item-question">
                   Is there a mobile app?
                   <svg
-                    class="question-item-arrow"
+                    class="item-question__arrow"
                     width="20"
                     height="13"
-                    viewBox="0 0 20 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      id="Path 3"
-                      d="M2 2L10 10L18 2"
+                      d="m2 2 8 8 8-8"
                       stroke="currentColor"
                       stroke-width="3"
                     />
                   </svg>
                 </summary>
-                <p class="question-item-text">
+                <p class="question__text">
                   Vivamus luctus eros aliquet convallis ultricies. Mauris augue
                   massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
                   luctus eros aliquet convallis ultricies. Mauris augue massa,
@@ -259,26 +255,24 @@
                   ultricies non ligula. Suspendisse imperdiet.
                 </p>
               </details>
-              <details class="question-item-wrapper">
-                <summary class="question-item">
+              <details class="question__item-wrapper">
+                <summary class="question__item item-question">
                   What about other Chromium browsers?
                   <svg
-                    class="question-item-arrow"
+                    class="item-question__arrow"
                     width="20"
                     height="13"
-                    viewBox="0 0 20 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      id="Path 3"
-                      d="M2 2L10 10L18 2"
+                      d="m2 2 8 8 8-8"
                       stroke="currentColor"
                       stroke-width="3"
                     />
                   </svg>
                 </summary>
-                <p class="question-item-text">
+                <p class="question__text">
                   Vivamus luctus eros aliquet convallis ultricies. Mauris augue
                   massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
                   luctus eros aliquet convallis ultricies. Mauris augue massa,
@@ -287,7 +281,7 @@
                   ultricies non ligula. Suspendisse imperdiet.
                 </p>
               </details>
-              <a class="primary-btn question-btn" href="#">More info</a>
+              <a class="primary-btn question__btn" href="#">More info</a>
             </div>
           </div>
         </div>
@@ -297,10 +291,10 @@
       <!-- Join -->
       <section class="join">
         <div class="container">
-          <div class="join-inner">
-            <div class="join-info">
-              <p class="join-info-text">35,000+ ALREADY JOINED</p>
-              <h2 class="join-info-title">
+          <div class="join__inner">
+            <div class="join__info info-join">
+              <p class="info-join__text">35,000+ ALREADY JOINED</p>
+              <h2 class="info-join__title">
                 Stay up-to-date with what we’re doing
               </h2>
             </div>
@@ -310,9 +304,9 @@
               method="post"
               autocomplete="off"
             >
-              <label class="form-label">
+              <label class="site-form__label">
                 <input
-                  class="form-input"
+                  class="site-form__input"
                   type="email"
                   name="user_email"
                   aria-label="user email"
@@ -324,7 +318,7 @@
                   >Whoops, make sure it’s an email</span
                 >
               </label>
-              <button class="form-btn">Contact Us</button>
+              <button class="site-form__btn">Contact Us</button>
             </form>
           </div>
         </div>
@@ -338,42 +332,38 @@
 
     <footer class="site-footer">
       <div class="container">
-        <div class="site-footer-inner">
-          <div class="site-footer-first">
-            <a class="logo-link" href="./index.html">
+        <div class="site-footer__inner">
+          <div class="site-footer__first">
+            <a class="logo" href="./index.html">
               <img
-                class="logo-img"
+                class="logo__img"
                 src="./images/logo-white.svg"
                 alt="logo-img"
                 width="150"
                 height="25"
               />
             </a>
-            <nav class="sitenav site-footer-nav">
-              <ul class="sitenav-list">
-                <li class="sitenav-item">
-                  <a class="sitenav-item-link footer-item-link" href="#"
+            <nav class="sitenav site-footer__nav">
+              <ul class="sitenav__list">
+                <li class="sitenav__item">
+                  <a class="sitenav__link link-site-footer" href="#"
                     >FEATURES</a
                   >
                 </li>
-                <li class="sitenav-item">
-                  <a class="sitenav-item-link footer-item-link" href="#"
-                    >PRICING</a
-                  >
+                <li class="sitenav__item">
+                  <a class="sitenav__link link-site-footer" href="#">PRICING</a>
                 </li>
-                <li class="sitenav-item">
-                  <a class="sitenav-item-link footer-item-link" href="#"
-                    >CONTACT</a
-                  >
+                <li class="sitenav__item">
+                  <a class="sitenav__link link-site-footer" href="#">CONTACT</a>
                 </li>
               </ul>
             </nav>
           </div>
           <div class="social-media">
-            <ul class="social-meadia-list">
-              <li class="social-meadia-item">
+            <ul class="social-media__list">
+              <li class="social-media__item">
                 <a
-                  class="social-media-link"
+                  class="social-media__link"
                   href="https://facebook.com"
                   target="blank"
                 >
@@ -393,9 +383,9 @@
                   </svg>
                 </a>
               </li>
-              <li class="social-meadia-item">
+              <li class="social-media__item">
                 <a
-                  class="social-media-link"
+                  class="social-media__link"
                   href="https://twitter.com"
                   target="blank"
                 >
